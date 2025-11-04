@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Dan013577947.github.io/danilo-react-website/",
+  "homepage": "https://Dan013577947.github.io/alvaro-react-portfolio/",
   "name": "my-website",
   "private": true,
   "version": "0.0.0",
@@ -17,6 +17,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.1.1",
     "react-router": "^7.9.5",
+    "react-router-dom": "^7.9.5",
     "router": "^2.2.0"
   },
   "devDependencies": {
