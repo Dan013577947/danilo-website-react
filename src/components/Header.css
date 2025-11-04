@@ -1,0 +1,135 @@
+.header {
+  position: sticky;
+  height: 80px;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  background-color: rgb(43, 42, 54);
+}
+
+.header-left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-middle-section {}
+
+.header-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 30px;
+}
+
+.active {
+  color: #4ceaff;
+}
+
+@media (min-width:750px) and (max-width: 1000px) {
+  .header {
+    grid-template-columns: 1fr 1fr 3fr;
+  }
+}
+
+@media (min-width:650px) and (max-width: 749px) {
+  .header {
+    grid-template-columns: 1fr 1fr 10fr;
+  }
+
+}
+
+@media (max-width: 659px){
+  .header {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width:620px) and (max-width: 659px) {
+  .header {
+    grid-template-columns: 1fr;
+    height: 50px;
+  }
+
+  .header-left-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-middle-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-right-section {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width:612px) and (max-width:619px) {
+
+  .header {
+    grid-template-columns: 1fr;
+    height: 50px;
+  }
+
+  .header-left-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-middle-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-right-section {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width:580px) and (max-width:611px) {
+  .header {
+    grid-template-columns: 1fr;
+    height: 50px;
+  }
+
+  .header-left-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-middle-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-right-section {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width:579px) {
+  .header {
+    grid-template-columns: 1fr;
+    height: 50px;
+  }
+
+  .header-left-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-middle-section {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .header-right-section {
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,155 @@
+.contact-body {
+  padding: 0 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.get-in-touch {
+  font-size: 30px;
+}
+
+.fb-resize {
+  width: 90px;
+}
+
+.no-color,
+.no-underline {
+  text-decoration: none;
+  color: white;
+}
+
+.link-container {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.gmail span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gmail span:active {
+  color: #4ceaff;
+}
+
+.gmail-img {
+  width: 46px;
+}
+
+.linkedin-img {
+  width: 48px;
+  margin-left: -2px;
+}
+
+.facebook-img {
+  width: 51px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.github-img {
+  margin-left: -2px;
+  margin-right: -1px;
+  width: 50px;
+}
+
+.viber-img {
+  width: 58px;
+  margin-left: -8px;
+  margin-right: -3px;
+}
+
+.youtube-img {
+  width: 47px;
+  height: 35px;
+}
+
+.contact-img {
+  border-radius: 50%;
+  width: 47px;
+}
+
+.form {
+  height: 100%;
+  padding-left: 30px;
+}
+
+.contact-right-section {
+  padding-top: 20px;
+}
+
+.input-fields {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  width: 75%;
+  margin: 7px 0;
+}
+
+.user_message {
+  height: 130px;
+}
+
+.submit {
+  background-color: #4ceaff;
+  border: none;
+  padding: 9px 13px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px #4ceaff;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+@media(min-width:751px) and (max-width:920px) {
+  .contact-body {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    height: 100%;
+    padding-left: 0;
+  }
+}
+
+@media(min-width:586px) and (max-width:750px) {
+  .contact-body {
+    grid-template-columns: 1fr;
+    padding: 0 50px;
+  }
+
+  .form {
+    height: 100%;
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width:585px) {
+  .contact-body {
+    grid-template-columns: 1fr;
+    padding: 0 35px;
+  }
+
+  .form {
+    height: 100%;
+    padding-left: 0;
+  }
+
+  .input-fields {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  width: 90%;
+  margin: 7px 0;
+}
+}

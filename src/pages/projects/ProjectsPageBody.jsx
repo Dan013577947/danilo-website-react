@@ -1,0 +1,174 @@
+
+function ProjectsPageBody() {
+  return (
+    <div className="projects-body">
+      <div>
+        <h3>My Projects</h3>
+        <div className="description">
+          Throughout my programming journey, I’ve explored various technologies and built many projects — from simple games to desktop applications, hardware programming, and automation tools. Recently, I’ve shifted my focus to React.js and front-end development, creating projects that are now connected to the web. While my earlier works weren’t focused on front-end development, they helped me build a strong foundation in logic and problem-solving, which I now apply to web development.
+        </div>
+        <div className="video-grid">
+          <iframe
+            src="https://www.youtube.com/embed/n7Qw__cRfIk"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe> 
+         
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">InventoProfit</h1> InventoProfit is a Final group project and I am the main contributor. I made the program using Python and Tkinter Library for GUI, it has features such as QR code auto generate for each item added, QR code scan using laptop/desktop camera, login and creation account system, forgot password, sales history, daily sales, weekly sales, monthly sales, expenses handling, inventory, and so on. I used txt as database, and used own logic to manipulate the database in txt. The project needed patience and data handling skills.
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <i className="fa-brands fa-projects fa-python">
+                  <span className="tooltip"> Python</span>
+                </i>
+                <i className="fa-solid fa-projects fa-database">
+                  <span className="tooltip"> Database (.txt)</span>
+                </i>
+              </div>
+            </div>
+
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/VQQe5uidCOk"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe>
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">Philippines Earthquake Records</h1> The project automates the collection and processing of earthquake data from PHIVOLCS. It fetches raw earthquake data using SOAP for HTML parsing, removed duplicates and null using pandas, processes it with Python scripts, runs transformations with dbt, and loads it into PostgreSQL for analytics. The entire workflow is scheduled and managed using Apache Airflow, containerized with Docker, and visualized using Superset.
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <i className="fa-brands fa-projects fa-python">
+                  <span className="tooltip"> Python</span>
+                </i>
+                <i className="fa-solid fa-projects fa-database">
+                  <span className="tooltip"> SQL</span>
+                </i>
+
+                <img className="uploaded-img" src="airflow.png" alt="Airflow" />
+                <span className="tooltip fa uploaded-text">Airflow</span>
+
+                <i className="fa-brands fa-projects fa-docker">
+                  <span className="tooltip"> Docker</span>
+                </i>
+              </div>
+            </div>
+
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/tbXHcp_y7rY"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe>
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">Weather Data Records</h1> The project automates the collection and processing of weather data from my home. It fetches raw weather data from Weatherstack API, processes it using Python scripts, and runs transformations with dbt before loading it into PostgreSQL for analytics. The pipeline is scheduled and managed with Apache Airflow and containerized using Docker, and displayed the final output through Superset.
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <i className="fa-brands fa-projects fa-python">
+                  <span className="tooltip"> Python</span>
+                </i>
+                <i className="fa-solid fa-projects fa-database">
+                  <span className="tooltip"> SQL</span>
+                </i>
+
+                <img className="uploaded-img" src="airflow.png" alt="Airflow" />
+                <span className="tooltip fa uploaded-text">Airflow</span>
+
+                <i className="fa-brands fa-projects fa-docker">
+                  <span className="tooltip"> Docker</span>
+                </i>
+              </div>
+            </div>
+
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/tKzQoBZK0nY"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe>
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">Remote-Controlled Light Bulb System</h1> This is a Final project made using Arduino. Light Bulbs can be set automatically/manually and how many bulbs to use depends on what the user wants. It also have an option to set the time and date so the user can select when he wants to use the bulb/s. The project needed date and time handling, data structures and algorithms, and accurate timing of bulbs and LCD
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <i className="fa-solid fa-projects fa-microchip">
+                  <span className="tooltip"> Arduino</span>
+                </i>
+                <i className="fa-solid fa-projects fa-gear">
+                  <span className="tooltip"> Hardware</span>
+                </i>
+                <i className="fa-brands fa-projects fa-cuttlefish">
+                  <span className="tooltip"> C++</span>
+                </i>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/7A_VO-muNdU"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe>
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">Pacman Game for New Year</h1>I designed the game from scratch using GDevelop,
+                implemented player movements, enemy movements, score tracking, design, sounds, and camera
+                movement. My first published game in itch.
+
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <img className="uploaded-img" src="gdevelop.png" alt="gdevelop" />
+                <span className="tooltip fa uploaded-text">GDevelop</span>
+              </div>
+            </div>
+
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/yyT_SQspb50"
+            allowFullScreen
+            frameBorder='0'
+          >
+          </iframe>
+          <div className="project-description">
+            <div className="column-description">
+              <div>
+                <h1 className="highlight project-title">Jet Shooter</h1> Jet shooter game in Desktop, move your jet and destroy the objects using your laser to earn points. Avoid
+                getting hit, 3 hits = Game Over
+              </div>
+              <div>
+                <h3 className="tech-stack-text">Tech Stack</h3>
+                <img className="uploaded-img" src="godot.svg" alt="gdevelop" />
+                <span className="tooltip fa uploaded-text">Godot</span>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  );
+}
+
+export default ProjectsPageBody

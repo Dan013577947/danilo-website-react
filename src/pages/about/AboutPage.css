@@ -1,0 +1,31 @@
+.about-body {
+  padding: 0 70px;
+}
+
+.fa-about {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.tooltip {
+  font-size: 13px;
+  color: white;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+@media(max-width:560px) {
+  .tooltip {
+    font-size: 11px;
+    color: white;
+  }
+}
+
+@media(max-width:645px){
+  .about-body{
+    padding: 0 30px;
+    
+  }
+}
