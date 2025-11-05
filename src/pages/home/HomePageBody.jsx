@@ -31,7 +31,7 @@ function HomePageBody() {
           <div className="home-right-section-left-space"></div>
           <div className="home-right-section-content">
             <img src= {DaniloImage} alt="My image" />
-          </div>
+         </div>
           <div className="home-right-section-right-space"></div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/danilo-react-portfolio">
+    <BrowserRouter basename="/danilo-website-react">
       <App />
     </BrowserRouter>
   </StrictMode>,
