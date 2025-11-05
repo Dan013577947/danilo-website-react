@@ -1,6 +1,7 @@
 # Portfolio Website: Danilo Alvaro (2025)
 A responsive personal portfolio designed and developed from scratch using ReactJS to showcase technical skills in modern front-end development, and UI/UX design.
-### Access the Website:                https://dan013577947.github.io/danilo-website-react/
+### Access the Website:                
+https://dan013577947.github.io/danilo-website-react/
 
 ## Project Overview
 The project automates the collection and processing of weather data from my home. It fetches raw weather data from Weatherstack API, processes it using Python scripts, and runs transformations with dbt before loading it into PostgreSQL for analytics. 
