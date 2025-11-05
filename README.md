@@ -1,16 +1,19 @@
-# React + Vite
+# Portfolio Website: Danilo Alvaro (2025)
+A responsive personal portfolio designed and developed from scratch using ReactJS to showcase technical skills in modern front-end development, and UI/UX design.
+  
+## Project Overview
+The project automates the collection and processing of weather data from my home. It fetches raw weather data from Weatherstack API, processes it using Python scripts, and runs transformations with dbt before loading it into PostgreSQL for analytics. 
+The pipeline is scheduled and managed with Apache Airflow and containerized using Docker, and displayed the final output through Superset.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Features
+- Modular Component Architecture: Built with ReactJS to ensure the application is scalable, maintainable, and highly reusable.
+- Fully Responsive Design: Implemented an optimized mobile-first layout using CSS3 for seamless viewing across all desktop and mobile devices.
+- Dynamic Routing: Utilizes React Router for clean, fast, single-page application (SPA) navigation.
+- Professional Deployment: Managed and deployed via GitHub Pages, demonstrating proficiency in version control and deployment pipelines.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies & Skills
+- Frontend Framework: ReactJS
+- Language: JavaScript (ES6+)
+- Styling & Structure: HTML5 | CSS3
+- Dependencies: React Router
+- Version Control & Hosting: Git | GitHub Pages
