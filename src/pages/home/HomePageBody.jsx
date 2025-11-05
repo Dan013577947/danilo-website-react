@@ -1,4 +1,7 @@
+import DaniloImage from '../../assets/daniloimage.png'
+
 function HomePageBody() {
+ 
   return (
     <>
       <div className="home-body">
@@ -27,7 +30,7 @@ function HomePageBody() {
         <div className="home-right-section">
           <div className="home-right-section-left-space"></div>
           <div className="home-right-section-content">
-            <img src={import.meta.env.BASE_URL + "daniloimage.png"} alt="My image" />
+            <img src= {DaniloImage} alt="My image" />
           </div>
           <div className="home-right-section-right-space"></div>
         </div>
