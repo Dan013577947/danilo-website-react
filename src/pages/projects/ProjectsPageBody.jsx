@@ -13,8 +13,7 @@ function ProjectsPageBody() {
             allowFullScreen
             frameBorder='0'
           >
-          </iframe> 
-         
+          </iframe>  
           <div className="project-description">
             <div className="column-description">
               <div>
@@ -31,67 +30,7 @@ function ProjectsPageBody() {
               </div>
             </div>
 
-          </div>
-          <iframe
-            src="https://www.youtube.com/embed/VQQe5uidCOk"
-            allowFullScreen
-            frameBorder='0'
-          >
-          </iframe>
-          <div className="project-description">
-            <div className="column-description">
-              <div>
-                <h1 className="highlight project-title">Philippines Earthquake Records</h1> The project automates the collection and processing of earthquake data from PHIVOLCS. It fetches raw earthquake data using SOAP for HTML parsing, removed duplicates and null using pandas, processes it with Python scripts, runs transformations with dbt, and loads it into PostgreSQL for analytics. The entire workflow is scheduled and managed using Apache Airflow, containerized with Docker, and visualized using Superset.
-              </div>
-              <div>
-                <h3 className="tech-stack-text">Tech Stack</h3>
-                <i className="fa-brands fa-projects fa-python">
-                  <span className="tooltip"> Python</span>
-                </i>
-                <i className="fa-solid fa-projects fa-database">
-                  <span className="tooltip"> SQL</span>
-                </i>
-
-                <img className="uploaded-img" src="airflow.png" alt="Airflow" />
-                <span className="tooltip fa uploaded-text">Airflow</span>
-
-                <i className="fa-brands fa-projects fa-docker">
-                  <span className="tooltip"> Docker</span>
-                </i>
-              </div>
-            </div>
-
-          </div>
-          <iframe
-            src="https://www.youtube.com/embed/tbXHcp_y7rY"
-            allowFullScreen
-            frameBorder='0'
-          >
-          </iframe>
-          <div className="project-description">
-            <div className="column-description">
-              <div>
-                <h1 className="highlight project-title">Weather Data Records</h1> The project automates the collection and processing of weather data from my home. It fetches raw weather data from Weatherstack API, processes it using Python scripts, and runs transformations with dbt before loading it into PostgreSQL for analytics. The pipeline is scheduled and managed with Apache Airflow and containerized using Docker, and displayed the final output through Superset.
-              </div>
-              <div>
-                <h3 className="tech-stack-text">Tech Stack</h3>
-                <i className="fa-brands fa-projects fa-python">
-                  <span className="tooltip"> Python</span>
-                </i>
-                <i className="fa-solid fa-projects fa-database">
-                  <span className="tooltip"> SQL</span>
-                </i>
-
-                <img className="uploaded-img" src="airflow.png" alt="Airflow" />
-                <span className="tooltip fa uploaded-text">Airflow</span>
-
-                <i className="fa-brands fa-projects fa-docker">
-                  <span className="tooltip"> Docker</span>
-                </i>
-              </div>
-            </div>
-
-          </div>
+          </div>    
           <iframe
             src="https://www.youtube.com/embed/tKzQoBZK0nY"
             allowFullScreen
@@ -117,56 +56,8 @@ function ProjectsPageBody() {
               </div>
             </div>
           </div>
-          <iframe
-            src="https://www.youtube.com/embed/7A_VO-muNdU"
-            allowFullScreen
-            frameBorder='0'
-          >
-          </iframe>
-          <div className="project-description">
-            <div className="column-description">
-              <div>
-                <h1 className="highlight project-title">Pacman Game for New Year</h1>I designed the game from scratch using GDevelop,
-                implemented player movements, enemy movements, score tracking, design, sounds, and camera
-                movement. My first published game in itch.
-
-              </div>
-              <div>
-                <h3 className="tech-stack-text">Tech Stack</h3>
-                <img className="uploaded-img" src="gdevelop.png" alt="gdevelop" />
-                <span className="tooltip fa uploaded-text">GDevelop</span>
-              </div>
-            </div>
-
-          </div>
-          <iframe
-            src="https://www.youtube.com/embed/yyT_SQspb50"
-            allowFullScreen
-            frameBorder='0'
-          >
-          </iframe>
-          <div className="project-description">
-            <div className="column-description">
-              <div>
-                <h1 className="highlight project-title">Jet Shooter</h1> Jet shooter game in Desktop, move your jet and destroy the objects using your laser to earn points. Avoid
-                getting hit, 3 hits = Game Over
-              </div>
-              <div>
-                <h3 className="tech-stack-text">Tech Stack</h3>
-                <img className="uploaded-img" src="godot.svg" alt="gdevelop" />
-                <span className="tooltip fa uploaded-text">Godot</span>
-              </div>
-            </div>
-
-          </div>
-          
         </div>
-
       </div>
-
-
-
-
     </div>
   );
 }
