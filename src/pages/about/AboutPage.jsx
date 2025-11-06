@@ -6,12 +6,14 @@ import Footer from "../../components/Footer"
 
 function AboutPage() {
   return (
-    <>
-      <title>About</title>
-      <Header />
-      <AboutPageBody />
-      <Footer />
-    </>
+    <div className='container'>
+      <div className='sub-container'>
+        <title>About</title>
+        <Header />
+        <AboutPageBody />
+        <Footer />
+      </div>
+    </div>
   );
 }
 

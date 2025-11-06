@@ -8,16 +8,14 @@ import ContactPage from './pages/contact/ContactPage'
 function App() {
 
   return (
-    <div className='container'>
-      <div className="sub-container">
-        <Routes>
-          <Route element={<HomePage />} path='/' />
-          <Route element={<AboutPage />} path='/about' />
-          <Route element={<ProjectsPage />} path='/projects' />
-          <Route element={<ContactPage />} path='/contact' />
-        </Routes>
-      </div>
-    </div>
+
+    <Routes>
+      <Route element={<HomePage />} path='/' />
+      <Route element={<AboutPage />} path='/about' />
+      <Route element={<ProjectsPage />} path='/projects' />
+      <Route element={<ContactPage />} path='/contact' />
+    </Routes>
+
   )
 }
 

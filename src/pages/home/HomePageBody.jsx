@@ -1,5 +1,5 @@
 import DaniloImage from '../../assets/daniloimage.png'
-
+import DaniloResume from "/danilo_alvaro_resume.pdf"
 function HomePageBody() {
  
   return (
@@ -20,7 +20,7 @@ function HomePageBody() {
                 <i className="fa-brands fa-home fa-github"></i>
               </a>
             </div>
-            <a href="/alvaro_danilo_resume.pdf" download="Danilo_Alvaro_Resume.pdf" className="dload-resume">
+            <a href={DaniloResume} download="Alvaro_Danilo_Resume.pdf" className="dload-resume">
               Download Resume
             </a>
           </div>

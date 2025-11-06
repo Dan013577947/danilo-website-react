@@ -5,12 +5,14 @@ import ContactPageBody from "./ContactPageBody"
 
 function ContactPage() {
   return (
-    <>
-      <title>Contact</title>
-      <Header /> 
-      <ContactPageBody /> 
-      <Footer />
-    </>
+    <div className='container'>
+      <div className='sub-container'>
+        <title>Contact</title>
+        <Header />
+        <ContactPageBody />
+        <Footer />
+      </div>
+    </div>
   );
 }
 

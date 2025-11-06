@@ -3,11 +3,13 @@ import './HomePage.css'
 import HomePageBody from './HomePageBody';
 function HomePage() {
   return (
-    <>
-      <title>Home</title>
-      <Header />
-      <HomePageBody />
-    </>
+    <div className='container'>
+      <div className='sub-container'>
+        <title>Home</title>
+        <Header />
+        <HomePageBody />
+      </div>
+    </div>
   );
 }
 
