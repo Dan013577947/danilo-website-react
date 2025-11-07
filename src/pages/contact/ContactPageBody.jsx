@@ -1,6 +1,12 @@
+import { Link } from 'react-router';
 import ContactForm from './ContactForm';
 import './ContactPage.css'
-
+import Gmail from "/gmail.png"
+import LinkedIn from "/linkedin.png"
+import Github from "/github.png"
+import Facebook from "/fb.png"
+import Youtube from "/yt.png"
+import Contact from "/contact.png"
 function ContactPageBody() {
   const openEmail = () => {
 
@@ -21,44 +27,42 @@ function ContactPageBody() {
         <h3 className='highlight'>I'd like to hear from you!</h3>
         <div className="gmail">
           <a onClick={openEmail} className='no-color no-underline gmail link-container' >
-            <img className='uploaded-img gmail-img' src="gmail.png" alt="gmail" />
+            <img className='uploaded-img gmail-img' src={Gmail} alt="gmail" />
             <span className='notice'>daniloalvaro031717@gmail.com</span>
           </a>
         </div>
         <div className="linkedin">
           <a className='no-color no-underline link-container' target='_blank' href="https://www.linkedin.com/in/danilo-alvaro-16b17534b/">
-            <img className='uploaded-img linkedin-img' src="linkedin.png" alt="linkedin" />
+            <img className='uploaded-img linkedin-img' src={LinkedIn} alt="linkedin" />
             <span className='notice'>Let’s connect professionally and grow our network.</span>
           </a>
 
         </div>
         <div className="github">
           <a className='no-color no-underline link-container' target='_blank' href="https://github.com/Dan013577947" >
-            <img className='uploaded-img github-img' src="github.png" alt="github" />
+            <img className='uploaded-img github-img' src={Github} alt="github" />
             <span className='notice'>Check out my open-source projects and code experiments.</span>
           </a>
 
         </div>
         <div className="facebook">
           <a className='no-color no-underline link-container' target='_blank' href="https://www.facebook.com/welplayed.com.019283">
-            <img className='uploaded-img facebook-img' src="fb.png" alt="facebook" />
+            <img className='uploaded-img facebook-img' src={Facebook} alt="facebook" />
             <span className='notice'>Like me on Facebook</span>
           </a>
 
         </div>
-
         <div className="youtube">
           <a className='no-color no-underline link-container' target='_blank' href="https://www.youtube.com/@daniloalvaro2142">
-            <img className='uploaded-img youtube-img' src="yt.png" alt="youtube" />
+            <img className='uploaded-img youtube-img' src={Youtube} alt="youtube" />
             <span className='notice'>Watch my projects and tutorials on YouTube.</span>
           </a>
         </div>
         <div className="phone link-container">
-          <img className='uploaded-img contact-img' src="contact.png" alt="youtube" />
+          <img className='uploaded-img contact-img' src={Contact} alt="youtube" />
           <span className='notice'>+639991826346</span>
 
         </div>
-
       </div>
       <div className="contact-right-section">
         <ContactForm />
